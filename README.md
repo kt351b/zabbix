@@ -19,10 +19,10 @@ What you can find here:
 - zabbix_agentd.conf - "UserParametr" for custom scripts
 - Scripts:
 
---- call1.trunk.list  - bash script to generate JSON file with trunk list to monitor
+--- /etc/zabbix/scripts/call1.trunk.list  - bash script to generate JSON file with trunk list to monitor
 
---- trunk.control.registry.bash - bash script to monitor trunk status from JSON list
+--- /etc/zabbix/scripts/trunk.control.registry.bash - bash script to monitor trunk status from JSON list
 
---- call1.trunk.load - bash script to count quantity of calls via trunk
+--- /etc/zabbix/scripts/call1.trunk.load - bash script to count quantity of calls via trunk
 
---- call1.calls.quantity  - bash script to get total calls quantity throught VoIP-server
+--- /etc/zabbix/scripts/call1.calls.quantity  - bash script to get total calls quantity throught VoIP-server
