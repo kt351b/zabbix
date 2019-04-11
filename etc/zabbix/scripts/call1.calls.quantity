@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo asterisk -rx 'core show calls' | grep active | awk -F " " '{print $1}'
